@@ -76,7 +76,7 @@ var app = new Vue({
               if(Math.ceil(document.body.scrollHeight - document.body.scrollTop) <= document.body.clientHeight)
               {
                   this.listIndex+=10;
-                  /* API returns totalItems value with different startIndex given- this 'if' won't work. */
+                  /* API returns different totalItems value with different startIndex given- this 'if' won't work. */
                   /* if(this.listIndex>this.listData.totalItems) return; */
                   axios
                     .get('https://www.googleapis.com/books/v1/volumes?q=intitle:'+this.searchTerm+'&printType=books&startIndex='+this.listIndex)
