@@ -36,6 +36,7 @@ const book = Vue.component('book', {
            return value;
         }
       }
+      //Test Branch comment method
 }); // End of book component declaration
 
 // List component
