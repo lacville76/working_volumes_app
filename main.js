@@ -14,6 +14,7 @@ const input = Vue.component('search-input', {
       },
 }); // End of search component declaration
 
+const test1=null;
 // Book component
 const book = Vue.component('book', {
     props: ['bookData'],
