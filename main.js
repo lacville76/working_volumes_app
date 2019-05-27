@@ -13,12 +13,12 @@ const input = Vue.component('search-input', {
             }, 400)  
       },
 }); // End of search component declaration
-<<<<<<< HEAD
+
 
 const test1=null;
-=======
+
 test3=null;
->>>>>>> branch2
+test5=1;
 // Book component
 const book = Vue.component('book', {
     props: ['bookData'],
