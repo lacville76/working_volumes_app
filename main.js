@@ -49,6 +49,7 @@ const list = Vue.component('list', {
                 </div>`,
 }); // End of list component declaration
 
+//BRANCH COMMENT
 // Main component
 var app = new Vue({ 
     el: '#app',
